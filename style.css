@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* <!-- header --> */
+.container{
+    height: 70px;
+background-color: rgb(0, 86, 86);
+padding-top: 25px;
+}
+
+
+
+
+
+
+
+.header-item{
+justify-content: space-between;
+
+    display: flex;
+padding: 0 40px;
+  
+}
+.menu ul {
+    list-style-type: none;
+    display: flex;
+
+
+
+}
+.logo{
+    padding-left: 50px;
+}
+
+
+.menu ul li a{
+    color: #fff;
+  padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+} 
+
+
+/* <!--end header --> */
+
+
+/* ------------banner----------- */
+
+
+
+.full{
+    background-image: url('img/banner3.jpg');
+     object-fit: cover; 
+     background-size: cover;
+     background-repeat: no-repeat;
+     width: 100%;
+     height: 100vh;
+    
+    text-align: center;
+}
+
+.header-area{
+    text-align: center;
+ padding-top: 140px;
+    color: #fff;
+}
+
+.header-area h3{
+    font-weight: bold;
+    font-size: 33px;
+}
+
+.header-area h1{
+    font-size: 80px;
+    text-transform: uppercase;
+   letter-spacing: 15px;
+}
+
+
+.header-area p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.header-area img{
+    padding-top: 40px;
+  
+}
+
+ button{
+    border: none;
+    background-color: yellow;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+#about-me{
+
+    margin: 50px 300px;
+}
+/* ------------banner----------- */
+/* <!-- about me --> */
+
+#about-me{
+    text-align: center;
+}
+
+.about-title h1{
+    color:rgb(0, 86, 86);
+    font-size: 55px;
+    text-transform: uppercase;
+
+}
+
+.about-title img{
+    margin: 40px;
+}
+
+
+.about-title p {
+    line-height: 40px;
+    font-size: 20px;
+    color: rgb(94, 85, 85);
+}
+
+
+
+.about-title strong{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+ .about-list{
+    display: flex;
+    margin: 60px 10px;
+
+  
+
+} 
+
+
+.fa-solid {
+    font-size: 30px;
+    color: rgb(0, 86, 86) ;
+}
+
+
+
+
+.about-item{
+    padding: 0 20px;
+}
+.about-item h4{
+    padding: 10px
+}
+
+.about-item{
+    margin-left: 30px;
+    padding: 10px;
+    border-right: 2px solid rgb(0, 86, 86);
+}
+
+
+
+
+
+
+/* <!--end about me --> */
+/* <!-- services --> */
+#services{
+    margin-top: 100px;
+   
+}
+
+.services-list{
+
+background-image: url('img/services_bg.jpg');
+object-fit: cover; 
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 100vh;
+    /* margin-bottom: 150px; */
+}
+
+
+      
+.services-list h1{
+ 
+    padding-top: 100px;
+    padding-left: 74px;
+}
+.services-list img{
+    padding-left: 74px;
+    
+}
+
+
+.para{
+    padding-left: 74px;
+}
+.para p{
+  word-spacing: 5px;
+  font-size: 14px;
+  line-height: 28px;
+   
+    padding-right: 70%;
+
+}
+
+.main-services{
+    display: flex;
+    padding-right: 70%;
+
+}
+.main-services2{
+    display: flex;
+    padding-right: 70%;
+    
+}
+
+.all-main-services{
+    padding-left: 74px
+} 
+.services-itemone{
+   padding-right: 10px;
+   padding-top: 40px;
+
+
+}
+
+
+.services-itemone h4{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.services-itemone p{
+font-size: 15px;
+line-height: 30px;
+}
+
+
+
+
+
+
+
+/* <!-- end services --> */
+
+/* <!-- my-work --> */
+
+
+
+#my-work{
+ padding-top: 100px;
+   
+}
+.work-list{
+    text-align: center;
+   margin: 0 28%;
+   line-height: 30px;
+
+}
+.work-item h1{
+    padding-top: 100px;
+    color:rgb(0, 86, 86);
+    font-size: 55px;
+    text-transform: uppercase;
+    padding: 20px 0;
+
+}
+
+.work-item p {
+    line-height: 40px;
+    font-size: 20px;
+    color: rgb(94, 85, 85);
+}
+
+
+.bann-img{
+    margin: 100px 0;
+
+}
+
+
+.img-item{
+
+    display: flex;
+}
+.img-item img{
+    height: 400px;
+    width: 400px;
+}
+
+
+
+
+
+/* <!--end my-work --> */
+
+
+
+
+/* <!-- footer --> */
+footer{
+    margin-top: 100px;
+ 
+}
+
+.footer-area{
+    height: 600px;
+    padding-top: 80px;
+    background-color: black;
+    text-align: center;
+}
+
+
+
+.footer-area .footer-item input {
+    border: none;
+    background-color: black;
+    border-bottom: 2px solid #fff;
+    margin: 10px;
+    text-align: center;
+    width: 350px;
+    font-size: 20px;
+    line-height: 20px;
+    padding-bottom: 20px;
+
+}
+
+.footer-item button{
+    height: 55px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    text-transform:uppercase;
+cursor: pointer;
+
+}
+
+
+
+
+
+
+/* <!--End footer --> */
+
+
+
